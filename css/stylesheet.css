@@ -135,13 +135,15 @@ a:hover {
  h2 {
     font-size: 40px;
     font-weight: 600;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .contact h3 {
     font-size: 20px;
     padding: 20px;
 }
+
 
 /*
   ========================================
@@ -166,11 +168,6 @@ a:hover {
 }
 
 
-.contact h3 {
-    font-size: 20px;
-    padding: 20px;
-}
-
 hr {
     width: 80%;
 }
@@ -194,4 +191,20 @@ hr {
 
 .about {
     padding: 40px
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer {
+    background: #41444b;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer {
+    text-align: center;
 }
