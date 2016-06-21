@@ -53,7 +53,7 @@ table {
 */
 
 body {
-    background: #fff;
+    background: #eadb9d;
     color: #000;
     font: 300 16px/22px "Roboto Condensed", "Poiret One";
 }
@@ -110,8 +110,8 @@ a:hover {
 
 
 .serve {
-    padding-bottom: 400px;
-    border: 1px;
+    background: #fff;
+    padding-bottom: 450px;
 }
 
 .colone {
@@ -193,6 +193,7 @@ hr {
 */
 
 .location {
+    background: #7fda89;
     padding: 40px
 }
 
