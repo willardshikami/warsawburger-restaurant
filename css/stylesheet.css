@@ -106,3 +106,92 @@ nav li a{
 a:hover {
     color: #da4949;
 }
+
+
+
+.serve {
+    padding-bottom: 400px;
+    border: 1px;
+}
+
+.colone {
+    float: left;
+    width: 50%;
+} 
+
+.coltwo {
+    float:right;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+ h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px
+}
+
+.contact h3 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+/*
+  ========================================
+  Images
+  ========================================
+*/
+
+.colone img {
+    width: 100%;
+}
+
+/*
+  ========================================
+  Contact Us
+  ========================================
+*/
+
+.contact {
+    text-align: center;
+    padding-top: 40px; 
+    padding-bottom: 50px;
+}
+
+
+.contact h3 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+hr {
+    width: 80%;
+}
+
+
+/*
+  ========================================
+  Location
+  ========================================
+*/
+
+.location {
+    padding: 40px
+}
+
+/*
+  ========================================
+  About
+  ========================================
+*/
+
+.about {
+    padding: 40px
+}
