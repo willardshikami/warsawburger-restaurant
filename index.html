@@ -6,6 +6,8 @@
         <title>Warsaw Burger Resturant</title>
         <link rel="stylesheet" href="css/stylesheet.css">
         
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
         
         <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
@@ -17,17 +19,17 @@
         <header class="restaurant">
             
                  <!--Navigation-->
-            <h1>Warsaw Burger Restaurant</h1>
-            
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#contact-us">Contacts</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#locate-us">Location</a></li>
             </ul>
         </nav>
             <img src="images/homepage.jpg">
+            
+            <h1><b>Warsaw Burger Restaurant</b></h1>
         </header>
         
         
@@ -49,7 +51,8 @@
         
         <hr>
         
-        <section class="contact">
+        <!--Contact Us-->
+        <section class="contact" id="contact-us">
             <h2>Contact Us</h2>
             
             <h3>hello@warsawburger.pl</h3>
@@ -59,14 +62,18 @@
             <form class="col-1-3" action="#" method="post">
                 <fieldset class="register-group">
                     <label>
-                        Name
+                        Names
                         <input type="text" name="name" placeholder="Full name" required>
                     </label>
+                    
+                    <br>
                     
                     <label>
                         Email
                         <input type="email" name="email" placeholder="Email Address" required>
                     </label>
+                    
+                    <br>
                     
                     <label>
                         Address
@@ -88,19 +95,19 @@
         
         <hr>
         
-        <section class="location">
+        <section class="about" id="about-us">
+            <h2>About</h2>
+            
+            <p>Warsaw Burgers was founded by a businessman called Tom Glachcov in early 2010. It has since grown rapidly over the years <br> All the burgers are prepared daily, on the spot with freshly seasonal ground beef of the highest quality - the Charolais breed. Our rolls are enriched by dietary fiber. We throw our own BBQ sauce, salsa fresca, chips/fries and coleslaw into the burgers. Steaks cut from maturing race Hereford. Homemade fries fried in oil – WE DO NOT FILTER – we exchange it. Just like that… And additionally we have soft taco with beef or chicken</p>
+        </section>
+        
+        
+        <!--Location-->
+        <section class="location" id="locate-us">
     
             <h2>Location</h2>
             
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32223.862395989363!2d20.986541776711583!3d52.22825760764781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8401cf7f29%3A0x53fc828308d76352!2sWarsaw+Burger+Bar!5e0!3m2!1ssw!2ske!4v1466543911457" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </section>
-        
-        <hr>
-        
-        <section class="about">
-            <h2>About</h2>
-            
-            <p>Warsaw Burgers was founded by a businessman called Tom Glachcov in early 2010. It has since grown rapidly over the years <br> All the burgers are prepared daily, on the spot with freshly seasonal ground beef of the highest quality - the Charolais breed. Our rolls are enriched by dietary fiber. We throw our own BBQ sauce, salsa fresca, chips/fries and coleslaw into the burgers. Steaks cut from maturing race Hereford. Homemade fries fried in oil – WE DO NOT FILTER – we exchange it. Just like that… And additionally we have soft taco with beef or chicken</p>
         </section>
         
         <footer>
